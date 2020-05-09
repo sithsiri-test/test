@@ -1,7 +1,7 @@
 import time
 
 f = open("lastboot.txt", "w")
-f.write(time.ctime())
+f.write("Hello!" + time.ctime())
 f.close()
 
 while True:
