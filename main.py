@@ -1,6 +1,6 @@
 import time
 
-f = open("demofile3.txt", "w")
+f = open("lastboot.txt", "w")
 f.write(time.ctime())
 f.close()
 
