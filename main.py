@@ -5,5 +5,5 @@ f.write("Hello!" + time.ctime())
 f.close()
 
 while True:
-  print("Hi! " + time.ctime())
+  print("Heyo! " + time.ctime())
   time.sleep(10)
